@@ -1,0 +1,21 @@
+title: "About ASPIRE Lab"
+description: "Autonomous Systems • Perception • Intelligence • Robotics • Exploration"
+url: "https://aspirelabiith.github.io"
+baseurl: ""
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+plugins:
+  - jekyll-include-cache
+
+# optional author info
+author:
+  name: "ASPIRE Lab, IITH"
+  bio: "Autonomous Systems using AI for Perception, Intelligence, and Robotic Exploration"
+  avatar: "/assets/images/avatar.jpg"
+
+# default layout for pages
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
