@@ -1,7 +1,8 @@
 ---
-layout: default
 title: Autonomous Systems, Perception, Intelligence, and Robotic Exploration Lab
 subtitle: From perception to intelligent action
+layout: single
+author_profile: false
 ---
 
 # ASPIRE Lab
