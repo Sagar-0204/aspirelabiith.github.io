@@ -1,7 +1,26 @@
-<nav class="page-nav">
-  <a href="{{ site.baseurl }}/">Home</a>
-  <a href="{{ site.baseurl }}/people">People</a>
-  <a href="{{ site.baseurl }}/publications">Publications</a>
-  <a href="{{ site.baseurl }}/projects">Projects</a>
-  <a href="{{ site.baseurl }}/positions">Positions</a>
+<style>
+.page-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.page-nav a {
+  text-decoration: none;
+  color: #0366d6;
+  font-weight: 500;
+}
+.page-nav a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<nav class="page-nav" role="navigation" aria-label="Main">
+  <a href="{{ "/" | relative_url }}">Home</a>
+  <a href="{{ "/people/" | relative_url }}">People</a>
+  <a href="{{ "/publications/" | relative_url }}">Publications</a>
+  <a href="{{ "/projects/" | relative_url }}">Projects</a>
+  <a href="{{ "/positions/" | relative_url }}">Positions</a>
 </nav>
+
