@@ -16,7 +16,8 @@ Professor, Department of Mechaincal & Aerospace Engineering
 Affiliate Professor, Department of Artificial Intelligence  
 Email: <span style='unicode-bidi:bidi-override; direction: rtl;'>
 ni.ca.htii.eam [ta] ramukpr
-</span>
+</span>  
+Web: [https://www.iith.ac.in/~rpkumar](https://www.iith.ac.in/~rpkumar)
 
 
 ## PhD Students  
