@@ -18,7 +18,7 @@ permalink: /publications/
 
 - Aashish Sahu and R Prasanth Kumar, "*Design and Implementation of Hexacopter Drone with Integrated Suction and Lift Mechanism with Real-Time Depth Sensing for Precision Object Handling*," 2024 9th International Conference on Robotics and Automation Engineering (ICRAE), 2024.
 
-- Krishnendu Roy, R Prasanth Kumar, and P Murali Krishna, "*Walking of Prismatic Knee Biped Robot Using Reinforcement Learning*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023. <span style="color:#159957;">[🏅Best Paper Award]</span>
+- Krishnendu Roy, R Prasanth Kumar, and P Murali Krishna, "*Walking of Prismatic Knee Biped Robot Using Reinforcement Learning*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023. <span style="color:#159957;"><strong>[Best Paper Award]</strong></span>
 
 - Krishna Prakash Yadav, R Prasanth Kumar, "*Genetic Algorithm-Based Trajectory Optimization for a Three-Link Biped Robot*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023. 
 
