@@ -12,13 +12,13 @@ permalink: /publications/
 
 - Krishnendu Roy and R Prasanth Kumar, "*Prismatic-Revolute Hybrid Biped Robot Walking in Unstructured Terrain using Reinforcement Learning,*" IEEE International Conference on Robotics and Mechatronics, 2025.  
 
-- Krishnendu Roy and R Prasanth Kumar, "*Dynamic standing stability comparison of revolute-knee and prismatic-knee underactuated biped robots*," International Journal of Dynamics and Control, Vol. 13, art No. 415, 2025. <a href="https://rdcu.be/eOR6x" target="_blank" rel="noopener noreferrer">Link</a>  
+- Krishnendu Roy and R Prasanth Kumar, "*Dynamic standing stability comparison of revolute-knee and prismatic-knee underactuated biped robots*," International Journal of Dynamics and Control, Vol. 13, art No. 415, 2025. <a href="https://rdcu.be/eOR6x" target="_blank" rel="noopener noreferrer">[Link]</a>  
 
 - Aashish Sahu and R Prasanth Kumar, "*Design and Development of an Arm-Leg Hybrid Drone for Enhanced Aerial Manipulation and Mobility*," 2024 IEEE International Conference on Robotics and Biomimetics (ROBIO), 2024.
 
 - Aashish Sahu and R Prasanth Kumar, "*Design and Implementation of Hexacopter Drone with Integrated Suction and Lift Mechanism with Real-Time Depth Sensing for Precision Object Handling*," 2024 9th International Conference on Robotics and Automation Engineering (ICRAE), 2024.
 
-- Krishnendu Roy, R Prasanth Kumar, and P Murali Krishna, "*Walking of Prismatic Knee Biped Robot Using Reinforcement Learning*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023. <span style="color:#159957;">(Best Paper Award)</span>
+- Krishnendu Roy, R Prasanth Kumar, and P Murali Krishna, "*Walking of Prismatic Knee Biped Robot Using Reinforcement Learning*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023. <span style="color:#159957;">[🏅Best Paper Award]</span>
 
 - Krishna Prakash Yadav, R Prasanth Kumar, "*Genetic Algorithm-Based Trajectory Optimization for a Three-Link Biped Robot*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023. 
 
