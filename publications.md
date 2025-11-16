@@ -20,7 +20,7 @@ permalink: /publications/
 
 - Krishnendu Roy, R Prasanth Kumar, and P Murali Krishna, "*Walking of Prismatic Knee Biped Robot Using Reinforcement Learning*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023. 
 
-- Krishna Prakash Yadav, R Prasanth Kumar, "*Genetic Algorithm-Based Trajectory Optimization for a Three-Link Biped Robot*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023.
+- Krishna Prakash Yadav, R Prasanth Kumar, "*Genetic Algorithm-Based Trajectory Optimization for a Three-Link Biped Robot*," 2023 IEEE 4th Annual Flagship India Council International Subsections Conference (INDISCON), 2023. <span style="color:#159957;">(Best Paper Award)</span>
 
 - Mangesh D. Ratolikar and R. Prasanth Kumar, "*Optimized Design of 5R Planar Parallel Mechanism for the Gait-Cycle of Quadruped Robots*," Journal of Vibroengineering, Vol. 24, No. 1, pp. 104-115, 2022.
 
