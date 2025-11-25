@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import Link from "next/link";
 
 import { publications, patents } from "./data";
 
@@ -24,30 +25,29 @@ export default function PublicationsPage() {
         </div>
         <div className="space-y-3">
           {publications.map((pub, idx) => (
-            <Card key={idx}>
-              <CardContent className="pt-6">
-                <p className="text-sm text-muted-foreground mb-2">
-                  {pub.authors}
-                </p>
-                <p className="font-medium mb-2">
-                  &ldquo;<em>{pub.title}</em>&rdquo;
-                </p>
-                <p className="text-sm text-muted-foreground">{pub.venue}</p>
-                <div className="mt-2 flex gap-2 items-center">
-                  {pub.award && <Badge variant="default">{pub.award}</Badge>}
-                  {pub.link && (
-                    <a
-                      href={pub.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary text-sm hover:underline"
-                    >
-                      [Link]
-                    </a>
-                  )}
-                </div>
-              </CardContent>
-            </Card>
+            <Link key={idx} href={`/publications/${pub.id}`}>
+              <Card className="cursor-pointer hover:shadow-lg transition-shadow mb-2">
+                <CardContent className="pt-6">
+                  <div>
+                    {pub.award && (
+                      <Badge
+                        variant="default"
+                        className="my-2 flex gap-2 items-center"
+                      >
+                        {pub.award}
+                      </Badge>
+                    )}
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-2">
+                    {pub.authors}
+                  </p>
+                  <p className="font-medium mb-2">
+                    &ldquo;<em>{pub.title}</em>&rdquo;
+                  </p>
+                  <p className="text-sm text-muted-foreground">{pub.venue}</p>
+                </CardContent>
+              </Card>
+            </Link>
           ))}
         </div>
       </div>
