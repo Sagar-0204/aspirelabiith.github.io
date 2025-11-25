@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, ChevronRight } from "lucide-react";
 import { Logo } from "./logo";
+import { Button } from "@/components/ui/button";
 
 const navItems = [
   { title: "Home", url: "/" },
@@ -105,13 +106,12 @@ export function Footer() {
               Join us in advancing robotics and AI research. Explore
               collaboration and research opportunities.
             </p>
-            <Link
-              href="/positions"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-all duration-300 group text-sm"
-            >
-              <span>View Positions</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            <Button asChild>
+              <Link href="/positions" className="group">
+                <span>View Positions</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            </Button>
           </div>
         </div>
 

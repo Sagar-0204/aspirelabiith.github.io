@@ -38,7 +38,7 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <Navigation />
-          <main className="flex-grow relative z-10">
+          <main className="grow relative z-10">
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
               <article className="bg-white dark:bg-slate-900 rounded-2xl shadow-xl border border-gray-200 dark:border-gray-800 p-8 sm:p-12 lg:p-16 transition-colors duration-300">
                 <div
