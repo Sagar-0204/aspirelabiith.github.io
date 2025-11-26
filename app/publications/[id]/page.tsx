@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeft, ExternalLink } from "lucide-react";
@@ -16,6 +17,40 @@ export async function generateStaticParams() {
   return publications.map((pub) => ({
     id: pub.id,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const publication = publications.find((pub) => pub.id === id);
+
+  if (!publication) {
+    return {
+      title: "Publication Not Found - ASPIRE Lab",
+    };
+  }
+
+  return {
+    title: `${publication.title} - ASPIRE Lab IIT Hyderabad`,
+    description:
+      publication.abstract ||
+      `Research publication by ${publication.authors} at ${publication.venue}`,
+    keywords: [
+      "robotics research",
+      "research paper",
+      "ASPIRE Lab",
+      "IIT Hyderabad",
+      publication.venue,
+    ],
+    openGraph: {
+      title: publication.title,
+      description: publication.abstract || `Research by ${publication.authors}`,
+      type: "article",
+    },
+  };
 }
 
 export default async function PublicationDetailPage({

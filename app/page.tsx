@@ -1,3 +1,34 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ASPIRE Lab - Autonomous Systems Research at IIT Hyderabad",
+  description:
+    "ASPIRE Lab at IIT Hyderabad advances autonomous robotic systems with perception, learning, and intelligent decision-making. Research includes aerial drones, quadruped robots, humanoid robots, and underwater robots using deep reinforcement learning and robot vision.",
+  keywords: [
+    "robotics research",
+    "autonomous systems",
+    "IIT Hyderabad",
+    "ASPIRE Lab",
+    "deep reinforcement learning",
+    "robot vision",
+    "aerial drones",
+    "quadruped robots",
+    "humanoid robots",
+    "underwater robots",
+    "AUV",
+    "human-robot interaction",
+    "control theory",
+    "machine learning",
+    "artificial intelligence",
+  ],
+  openGraph: {
+    title: "ASPIRE Lab - Autonomous Systems Research at IIT Hyderabad",
+    description:
+      "Advancing autonomous robotic systems through perception, learning, and intelligent decision-making at IIT Hyderabad",
+    type: "website",
+  },
+};
+
 export default function Home() {
   return (
     <div className="space-y-6">

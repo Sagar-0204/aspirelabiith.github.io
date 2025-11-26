@@ -19,9 +19,51 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "ASPIRE Lab",
+  metadataBase: new URL("https://aspirelabiith.github.io"),
+  title: {
+    default: "ASPIRE Lab - IIT Hyderabad",
+    template: "%s | ASPIRE Lab",
+  },
   description:
-    "Autonomous Systems, Perception, Intelligence, Robotics, and Exploration",
+    "Autonomous Systems, Perception, Intelligence, Robotics, and Exploration Lab at IIT Hyderabad. Research in autonomous robots, deep learning, computer vision, and intelligent control.",
+  keywords: [
+    "robotics",
+    "autonomous systems",
+    "IIT Hyderabad",
+    "artificial intelligence",
+    "machine learning",
+    "computer vision",
+    "control systems",
+  ],
+  authors: [{ name: "ASPIRE Lab, IIT Hyderabad" }],
+  creator: "ASPIRE Lab",
+  publisher: "IIT Hyderabad",
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: "https://aspirelabiith.github.io",
+    siteName: "ASPIRE Lab",
+    title: "ASPIRE Lab - IIT Hyderabad",
+    description:
+      "Autonomous Systems, Perception, Intelligence, Robotics, and Exploration",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ASPIRE Lab - IIT Hyderabad",
+    description:
+      "Autonomous Systems, Perception, Intelligence, Robotics, and Exploration",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({

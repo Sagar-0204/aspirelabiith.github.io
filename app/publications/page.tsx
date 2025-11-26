@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   Card,
   CardContent,
@@ -10,6 +11,29 @@ import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 
 import { publications, patents } from "./data";
+
+export const metadata: Metadata = {
+  title: "Publications & Patents - ASPIRE Lab IIT Hyderabad",
+  description:
+    "Browse research publications, conference papers, and patents from ASPIRE Lab at IIT Hyderabad. Our work covers robotics, autonomous systems, deep learning, computer vision, and control systems published in top-tier conferences and journals.",
+  keywords: [
+    "robotics publications",
+    "research papers",
+    "robotics patents",
+    "IIT Hyderabad publications",
+    "autonomous systems papers",
+    "machine learning publications",
+    "conference papers",
+    "IEEE papers",
+    "robotics research",
+  ],
+  openGraph: {
+    title: "Publications & Patents - ASPIRE Lab IIT Hyderabad",
+    description:
+      "Research publications and patents in robotics and autonomous systems",
+    type: "website",
+  },
+};
 
 export default function PublicationsPage() {
   return (

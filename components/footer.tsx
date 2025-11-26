@@ -136,7 +136,12 @@ export function Footer() {
           </p>
           <p className="text-[10px] sm:text-xs text-gray-500 dark:text-gray-500 order-1 sm:order-2">
             {/* break line on mobile */}
-            Inventing and Innovating in Technology for Humanity (IITH)<span className="hidden sm:inline"> - </span><span className="sm:hidden"><br /></span>Indian Institute of Technology, Hyderabad
+            Inventing and Innovating in Technology for Humanity (IITH)
+            <span className="hidden sm:inline"> - </span>
+            <span className="sm:hidden">
+              <br />
+            </span>
+            Indian Institute of Technology, Hyderabad
           </p>
         </div>
       </div>
