@@ -15,17 +15,17 @@ import { publications } from "../data";
 
 export async function generateStaticParams() {
   return publications.map((pub) => ({
-    id: pub.id,
+    ID: pub.id,
   }));
 }
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ id: string }>;
+  params: Promise<{ ID: string }>;
 }): Promise<Metadata> {
-  const { id } = await params;
-  const publication = publications.find((pub) => pub.id === id);
+  const { ID } = await params;
+  const publication = publications.find((pub) => pub.id === ID);
 
   if (!publication) {
     return {
@@ -56,10 +56,10 @@ export async function generateMetadata({
 export default async function PublicationDetailPage({
   params,
 }: {
-  params: Promise<{ id: string }>;
+  params: Promise<{ ID: string }>;
 }) {
-  const { id } = await params;
-  const publication = publications.find((pub) => pub.id === id);
+  const { ID } = await params;
+  const publication = publications.find((pub) => pub.id === ID);
 
   if (!publication) {
     notFound();
