@@ -1,3 +1,5 @@
+import RPKumarImage from "@/public/people/Prasanth_Kumar_R.png";
+
 const faculty = [
   {
     name: "R Prasanth Kumar",
@@ -8,7 +10,7 @@ const faculty = [
     ],
     email: "ni.ca.htii.eam [ta] ramukpr",
     web: "https://www.iith.ac.in/~rpkumar",
-    image: "/people/Prasanth_Kumar_R.png",
+    image: RPKumarImage,
   },
 ];
 

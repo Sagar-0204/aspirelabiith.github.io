@@ -18,7 +18,6 @@ import {
   mastersStudents,
   undergradStudents,
 } from "./data";
-import nextConfig from "../../next.config";
 
 export const metadata = createMetadata({
   title: "Research Team - ASPIRE Lab IIT Hyderabad",
@@ -61,7 +60,7 @@ export default function PeoplePage() {
                 <div className="w-full sm:w-48 md:w-56 lg:w-64 h-48 sm:h-auto shrink-0 mx-auto sm:mx-8">
                   {person.image ? (
                     <Image
-                      src={`${nextConfig.basePath}${person.image}`}
+                      src={person.image}
                       alt={person.name}
                       width={200}
                       height={200}
@@ -146,7 +145,7 @@ export default function PeoplePage() {
               <div className="aspect-square w-full bg-linear-to-br from-primary-100 to-primary-200 dark:from-primary-900 dark:to-primary-800">
                 {student.image ? (
                   <Image
-                    src={`${nextConfig.basePath}${student.image}`}
+                    src={student.image}
                     alt={student.name}
                     width={200}
                     height={200}
@@ -183,7 +182,7 @@ export default function PeoplePage() {
               <div className="aspect-square w-full bg-linear-to-br from-primary-100 to-primary-200 dark:from-primary-900 dark:to-primary-800">
                 {student.image ? (
                   <Image
-                    src={`${nextConfig.basePath}${student.image}`}
+                    src={student.image}
                     alt={student.name}
                     width={200}
                     height={200}
@@ -222,7 +221,7 @@ export default function PeoplePage() {
               <div className="aspect-square w-full bg-linear-to-br from-primary-100 to-primary-200 dark:from-primary-900 dark:to-primary-800">
                 {student.image ? (
                   <Image
-                    src={`${nextConfig.basePath}${student.image}`}
+                    src={student.image}
                     alt={student.name}
                     width={200}
                     height={200}

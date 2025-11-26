@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { publications } from "./publications/data";
+import { publications } from "./(pages)/publications/data";
 import { SITE_CONFIG } from "@/lib/constants";
 
 export const dynamic = "force-static";
