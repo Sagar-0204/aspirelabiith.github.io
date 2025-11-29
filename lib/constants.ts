@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
   fullName:
     "Autonomous Systems, Perception, Intelligence, Robotics, and Exploration",
   baseUrl: FORKING_USERNAME
-    ? `https://${FORKING_USERNAME}.github.io/aspirelabiith.github.io`
+    ? `https://${FORKING_USERNAME}.github.io`
     : "https://aspirelabiith.github.io",
   department: "Department of Mechanical and Aerospace Engineering",
   institution: "IIT Hyderabad",
