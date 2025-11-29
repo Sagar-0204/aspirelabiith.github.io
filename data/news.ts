@@ -1,12 +1,6 @@
-export interface NewsItem {
-  id: string;
-  title: string;
-  date: string;
-  description: string;
-  link?: string;
-}
+import { NewsItem } from "../lib/types";
 
-export const newsItems: NewsItem[] = [
+const newsItems: NewsItem[] = [
   {
     id: "1",
     title: "Internship Opportunities Open",
@@ -48,3 +42,5 @@ export const newsItems: NewsItem[] = [
     link: "/publications#arm-leg-hybrid-drone-2024",
   },
 ];
+
+export { newsItems };

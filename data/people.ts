@@ -1,6 +1,7 @@
 import RPKumarImage from "@/public/people/Prasanth_Kumar_R.png";
+import { Faculty, Student } from "../lib/types";
 
-const faculty = [
+const faculty: Faculty[] = [
   {
     name: "R Prasanth Kumar",
     role: "Head of the Lab",
@@ -14,13 +15,13 @@ const faculty = [
   },
 ];
 
-const phdStudents = [
+const phdStudents: Student[] = [
   { name: "Krishnendu Roy", image: undefined },
   { name: "Aashish Sahu", image: undefined },
   { name: "B V Shiva Reddy", image: undefined },
 ];
 
-const mastersStudents = [
+const mastersStudents: Student[] = [
   { name: "S Rami Reddy", program: "Mechanics and Design", image: undefined },
   {
     name: "S Chinnikrishna Yadav",
@@ -45,7 +46,7 @@ const mastersStudents = [
   },
 ];
 
-const undergradStudents = [
+const undergradStudents: Student[] = [
   { name: "Shriram Hari", program: "Mechanical Engineering", image: undefined },
 ];
 

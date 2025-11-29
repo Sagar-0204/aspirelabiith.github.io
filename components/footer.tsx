@@ -117,7 +117,18 @@ export function Footer() {
           <p className="text-[10px] sm:text-xs text-gray-600 dark:text-gray-400 order-2 sm:order-1">
             &copy; {currentYear}{" "}
             <span className="font-semibold">{SITE_CONFIG.name}</span>. All
-            rights reserved.
+            rights reserved <span className="hidden sm:inline">|</span>
+            <span className="sm:hidden">
+              <br />
+            </span>{" "}
+            <a
+              href="https://www.freepik.com/icon/ai_4821724"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 dark:text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+            >
+              Logo by Freepik
+            </a>
           </p>
           <p className="text-[10px] sm:text-xs text-gray-500 dark:text-gray-500 order-1 sm:order-2">
             Inventing and Innovating in Technology for Humanity (IITH)

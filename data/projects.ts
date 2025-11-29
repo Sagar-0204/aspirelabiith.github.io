@@ -1,4 +1,6 @@
-const currentProjects = [
+import { Project } from "../lib/types";
+
+const currentProjects: Project[] = [
   {
     title:
       "Design and Development of Autonomous Wheeled Humanoid Robot for Anubhava Mantapa",
@@ -15,7 +17,7 @@ const currentProjects = [
   },
 ];
 
-const completedProjects = [
+const completedProjects: Project[] = [
   {
     title:
       "Design and Development of Collaborative Payload Maneuvering with 04 Number of UAVs",

@@ -1,4 +1,6 @@
-const positions = [
+import { Position } from "../lib/types";
+
+const positions: Position[] = [
   {
     title: "Internships",
     status: "open",

@@ -1,12 +1,4 @@
-type Publication = {
-  id: string;
-  authors: string;
-  title: string;
-  venue: string;
-  abstract: string;
-  link: string;
-  award?: string;
-};
+import { Publication } from "../lib/types";
 
 const publications: Array<Publication> = [
   {

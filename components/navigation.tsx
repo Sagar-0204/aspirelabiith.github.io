@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Moon, Sun, Menu } from "lucide-react";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Logo } from "./logo";
 import { Button } from "@/components/ui/button";
 import {
@@ -20,13 +20,7 @@ import { NAV_ITEMS, SITE_CONFIG } from "@/lib/constants";
 export function Navigation() {
   const pathname = usePathname();
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setMounted(true), 0);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <header className="sticky top-0 z-50">
@@ -66,40 +60,36 @@ export function Navigation() {
                 ))}
               </ul>
 
-              {mounted && (
-                <Button
-                  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                  variant="outline"
-                  size="icon"
-                  className="h-9 w-9 shrink-0"
-                  aria-label="Toggle theme"
-                >
-                  {theme === "dark" ? (
-                    <Sun className="h-5 w-5" />
-                  ) : (
-                    <Moon className="h-5 w-5" />
-                  )}
-                </Button>
-              )}
+              <Button
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                variant="outline"
+                size="icon"
+                className="h-9 w-9 shrink-0"
+                aria-label="Toggle theme"
+              >
+                {theme === "dark" ? (
+                  <Sun className="h-5 w-5" />
+                ) : (
+                  <Moon className="h-5 w-5" />
+                )}
+              </Button>
             </div>
 
             {/* Mobile Navigation */}
             <div className="flex md:hidden items-center gap-2">
-              {mounted && (
-                <Button
-                  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                  variant="outline"
-                  size="icon"
-                  className="h-8 w-8 shrink-0"
-                  aria-label="Toggle theme"
-                >
-                  {theme === "dark" ? (
-                    <Sun className="h-4 w-4" />
-                  ) : (
-                    <Moon className="h-4 w-4" />
-                  )}
-                </Button>
-              )}
+              <Button
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                variant="outline"
+                size="icon"
+                className="h-8 w-8 shrink-0"
+                aria-label="Toggle theme"
+              >
+                {theme === "dark" ? (
+                  <Sun className="h-4 w-4" />
+                ) : (
+                  <Moon className="h-4 w-4" />
+                )}
+              </Button>
 
               <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
                 <SheetTrigger asChild>

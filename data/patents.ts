@@ -1,10 +1,4 @@
-type Patent = {
-  title: string;
-  inventors: string;
-  appNo: string;
-  filedDate?: string;
-  issueDate?: string;
-};
+import { Patent } from "../lib/types";
 
 const patents: Array<Patent> = [
   {
