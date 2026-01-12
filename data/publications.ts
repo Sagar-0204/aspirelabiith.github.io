@@ -2,6 +2,17 @@ import { Publication } from "../lib/types";
 
 const publications: Array<Publication> = [
   {
+    id: "obstacle-crossing-underactuated-biped-2026",
+    authors:
+      "Krishnendu Roy and R Prasanth Kumar",
+    title:
+      "Obstacle crossing in revolute and prismatic knee underactuated biped robots",
+    venue: "Robotics and Autonomous Systems, Volume 198, April 2026, 105340",
+    award: "",
+    abstract: "Obstacle crossing is an important ability in biped and humanoid robots that are designed to traverse unstructured terrain. We consider the problem of determining the maximum (a) height, (b) width, (c) cross-sectional area, (d) thin vertical barrier height, and (e) square area of the obstacle that an underactuated biped robot with point-feet can cross while walking slowly. Two different biped robot configurations are compared for obstacle crossing: revolute knee and prismatic knee. The path needed to overcome the obstacle without touching it is determined with the help of binary occupancy grid in the sagittal plane and using genetic algorithm based maximization for each of the five cases, considering thin links as well as thick links for the biped robots. The determined collision free path for obstacle crossing is implemented as a trajectory and demonstrated in dynamic simulation in Mujoco simulation environment. In order to control the position of zero moment point (ZMP) and the ground projection of center of mass for stability, a reaction wheel in the torso is utilized. It is observed that increasing the thicknesses of the biped robot links in general has an effect of reducing the maximum size of the obstacle that can be crossed. Further, prismatic knee biped robot performs better than revolute knee biped robot in crossing large obstacles, especially with thick links. Experiments on a prismatic-knee biped robot further validate the results of GA and MuJoCo simulations.",
+    link: "https://doi.org/10.1016/j.robot.2026.105340",
+  },
+  {
     id: "collaborative-payload-transport-2025",
     authors:
       "N Shyam Sridhar, Aashish Sahu, S Rami Reddy, and R Prasanth Kumar",
