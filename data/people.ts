@@ -64,7 +64,22 @@ const mastersStudents: Student[] = [
     name: "Nikhil Banoth",
     program: "Artificial Intelligence",
     image: undefined,
-  }
+  },
+  {
+    name: "Bestha Mukesh",
+    program: "Robotics and Intelligent Systems",
+    image: undefined,
+  },
+  {
+    name: "Muhammed Shanshad P K",
+    program: "Robotics and Intelligent Systems",
+    image: undefined,
+  },
+  {
+    name: "Vidya Sagar Tirandas",
+    program: "Robotics and Intelligent Systems",
+    image: undefined,
+  },
 ];
 
 const undergradStudents: Student[] = [
