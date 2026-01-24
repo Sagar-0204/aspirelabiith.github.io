@@ -31,6 +31,7 @@ export const metadata = createMetadata({
     "autonomous systems researchers",
     "robotics laboratory",
   ],
+  path: "/people",
 });
 
 function getInitials(name: string) {

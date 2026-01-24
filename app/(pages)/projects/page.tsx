@@ -17,6 +17,7 @@ export const metadata = createMetadata({
     "DST projects",
     "research grants",
   ],
+  path: "/projects",
 });
 
 export default function ProjectsPage() {

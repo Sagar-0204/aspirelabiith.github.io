@@ -26,6 +26,7 @@ export const metadata = createMetadata({
     "IEEE papers",
     "robotics research",
   ],
+  path: "/publications",
 });
 
 export default function PublicationsPage() {

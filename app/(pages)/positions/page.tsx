@@ -17,6 +17,7 @@ export const metadata = createMetadata({
     "autonomous systems careers",
     "robotics laboratory jobs",
   ],
+  path: "/positions",
 });
 
 export default function PositionsPage() {

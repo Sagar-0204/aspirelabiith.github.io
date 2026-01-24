@@ -38,6 +38,16 @@ export function Footer() {
             <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm leading-relaxed max-w-xs mx-auto sm:mx-0">
               {SITE_CONFIG.fullName}
             </p>
+            <p className="text-gray-700 dark:text-gray-300 text-xs sm:text-sm font-semibold max-w-xs mx-auto sm:mx-0">
+              <a 
+                href="https://www.iith.ac.in" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+              >
+                Indian Institute of Technology Hyderabad
+              </a>
+            </p>
             <div className="flex gap-2 sm:gap-3 justify-center sm:justify-start">
               {SOCIAL_LINKS.map((link) => {
                 const Icon = iconMap[link.icon];

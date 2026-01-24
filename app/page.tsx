@@ -11,20 +11,27 @@ import { Users, BookOpen, Briefcase } from "lucide-react";
 export const metadata = createMetadata({
   title: "ASPIRE Lab - Autonomous Systems Research at IIT Hyderabad",
   description:
-    "ASPIRE Lab at IIT Hyderabad advances autonomous robotic systems with perception, learning, and intelligent decision-making. Research includes aerial drones, quadruped robots, humanoid robots, and underwater robots using deep reinforcement learning and robot vision.",
+    "ASPIRE Lab (Autonomous Systems, Perception, Intelligence, Robotics, and Exploration) at Indian Institute of Technology Hyderabad advances autonomous robotic systems with perception, learning, and intelligent decision-making. Research includes aerial drones, quadruped robots, humanoid robots, and underwater robots using deep reinforcement learning and robot vision.",
   keywords: [
-    "robotics research",
-    "autonomous systems",
+    "robotics research lab",
+    "autonomous systems IIT Hyderabad",
     "deep reinforcement learning",
     "robot vision",
-    "aerial drones",
+    "aerial drones research",
     "quadruped robots",
-    "humanoid robots",
+    "humanoid robots India",
     "underwater robots",
-    "AUV",
+    "AUV research",
     "human-robot interaction",
     "control theory",
+    "robotics lab India",
+    "IITH research",
+    "MAE IIT Hyderabad",
+    "AI IIT Hyderabad",
+    "autonomous navigation",
+    "intelligent robots",
   ],
+  path: "/",
 });
 
 export default function Home() {
@@ -42,9 +49,24 @@ export default function Home() {
               Advancing Autonomous Robotic Systems with Perception, Learning,
               and Intelligent Decision-Making
             </p>
-            <p className="text-sm md:text-base font-light text-muted-foreground leading-relaxed">
-              Part of Department of Mechanical and Aerospace Engineering, IIT
-              Hyderabad
+            <p className="text-sm md:text-base font-medium text-muted-foreground leading-relaxed">
+              <a 
+                href="https://mae.iith.ac.in" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+              >
+                Department of Mechanical and Aerospace Engineering
+              </a>
+              <br />
+              <a 
+                href="https://www.iith.ac.in" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors font-semibold"
+              >
+                Indian Institute of Technology Hyderabad
+              </a>
             </p>
           </div>
         </div>
@@ -177,7 +199,16 @@ export default function Home() {
         <div className="flex items-center justify-center bg-background my-auto px-8 md:px-16 py-8 lg:py-16">
           <div className="space-y-6 max-w-xl text-lg md:text-xl leading-relaxed">
             <p>
-              <strong>ASPIRE Lab</strong> at IITH focuses on advancing{" "}
+              <strong>ASPIRE Lab</strong> at{" "}
+              <a 
+                href="https://www.iith.ac.in" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="font-semibold hover:text-primary transition-colors underline decoration-dotted"
+              >
+                Indian Institute of Technology Hyderabad (IIT Hyderabad)
+              </a>{" "}
+              focuses on advancing{" "}
               <strong>autonomous robotic systems</strong> endowed with
               perception, learning, and intelligent decision-making in complex
               environments. Our research covers a broad spectrum of robotic

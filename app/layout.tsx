@@ -2,6 +2,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { ThemeProvider } from "@/components/theme-provider";
+import { StructuredData } from "@/components/structured-data";
 import { ROOT_METADATA } from "@/lib/metadata";
 
 import "@/app/globals.css";
@@ -27,6 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <StructuredData />
+      </head>
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} min-h-screen flex flex-col font-sans antialiased`}
       >
