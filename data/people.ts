@@ -6,6 +6,7 @@ import ViswaKiranImage from "@/public/people/Viswa_Kiran.jpeg";
 import RamiReddyImage from "@/public/people/Rami_Reddy.jpeg";
 import ChinniImage from "@/public/people/Chinnikrishna.jpeg";
 import SathwikImage from "@/public/people/Sathwik.jpeg";
+import SagarImage from "@/public/people/Vidya_Sagar.jpeg";
 
 import { Faculty, Student } from "../lib/types";
 
@@ -78,7 +79,7 @@ const mastersStudents: Student[] = [
   {
     name: "Vidya Sagar Tirandas",
     program: "Robotics and Intelligent Systems",
-    image: undefined,
+    image: SagarImage,
   },
 ];
 
